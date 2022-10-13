@@ -9,7 +9,7 @@ screen = pygame.display.set_mode((640, 480))
 rect = pygame.Rect(0, 0, 0, 0)
 s = pygame.image.load("0.png")
 x=311
-y=447
+y=247#447
 animation_set = [pygame.image.load(f"r{i}.png") for i in range(1, 6)]
 window = pygame.display.set_mode((640, 480))
 clock = pygame.time.Clock()
@@ -38,3 +38,4 @@ while True:
     pygame.display.flip()
     window.fill((0, 0, 0))
     clock.tick(100)
+    print(x)
